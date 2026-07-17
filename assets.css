@@ -1,0 +1,21 @@
+/* CardVault — shared page styling */
+:root {
+  --brand: #22C55E; --brand-d: #16A34A;
+  --text: #1A1916; --muted: #6B6860; --bg: #FFFFFF; --surface: #F4F4F2; --border: #E5E4E0;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --text: #ECEAE4; --muted: #9B9890; --bg: #15171A; --surface: #1E2126; --border: #2C3036; }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, system-ui, sans-serif;
+  max-width: 720px; margin: 0 auto; padding: 24px;
+  color: var(--text); background: var(--bg); line-height: 1.6;
+}
+h1 { color: var(--brand); }
+h2 { margin-top: 28px; }
+a { color: var(--brand-d); }
+.muted { color: var(--muted); font-size: 14px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+footer a { color: var(--muted); }
