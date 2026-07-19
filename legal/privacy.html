@@ -18,10 +18,12 @@ Diese Erklärung beschreibt, welche Daten verarbeitet werden und wie.</p>
 
 <h2>Welche Daten verarbeitet werden</h2>
 <ul>
-  <li><strong>Konto:</strong> E-Mail-Adresse (für Anmeldung und Synchronisierung des Scan-Kontingents). Gespeichert bei Supabase (EU-Region).</li>
+  <li><strong>Konto:</strong> E-Mail-Adresse (für Anmeldung und Synchronisierung des Scan-Kontingents). Gespeichert bei Supabase (EU-Region). Bei <em>„Mit Apple anmelden"</em> erhalten wir die von Apple bereitgestellte E-Mail-Adresse — auf Wunsch eine anonymisierte Weiterleitungsadresse („E-Mail-Adresse verbergen").</li>
   <li><strong>Karten-Fotos:</strong> Beim Scannen wird das aufgenommene Foto zur Erkennung an die Anthropic-API (Claude) gesendet. Es wird <em>nicht</em> dauerhaft von uns gespeichert.</li>
   <li><strong>Sammlung:</strong> Deine erfasste Kartensammlung wird primär lokal auf dem Gerät gespeichert.</li>
   <li><strong>Scan-Protokoll:</strong> Zeitpunkt und Anzahl der Scans (zur Durchsetzung des wöchentlichen Kontingents).</li>
+  <li><strong>Abo-Status (nur CardVault Pro):</strong> Der Kauf läuft über dein Apple-ID-Konto; RevenueCat verarbeitet für uns den Abostatus. Zahlungsdaten (z.&nbsp;B. Kreditkartennummern) erhalten wir zu keinem Zeitpunkt.</li>
+  <li><strong>System-E-Mails:</strong> Bestätigungs- und Passwort-Zurücksetzen-E-Mails werden über den Dienst Resend versendet (Verarbeitung der E-Mail-Adresse zum Versandzeitpunkt).</li>
 </ul>
 
 <h2>Kamera</h2>
@@ -32,6 +34,9 @@ Diese Erklärung beschreibt, welche Daten verarbeitet werden und wie.</p>
   <li><strong>Anthropic</strong> (Bildverarbeitung zur Karten-Erkennung)</li>
   <li><strong>Supabase</strong> (Konto, Scan-Protokoll, Hosting)</li>
   <li><strong>TCGdex</strong> (Abruf öffentlicher Kartendaten und -bilder; es werden keine personenbezogenen Daten übermittelt)</li>
+  <li><strong>Apple</strong> („Mit Apple anmelden" sowie Abrechnung von CardVault Pro über den App&nbsp;Store)</li>
+  <li><strong>RevenueCat</strong> (Verwaltung des Abo-Status von CardVault Pro)</li>
+  <li><strong>Resend</strong> (Versand von Konto-E-Mails, z.&nbsp;B. Bestätigung und Passwort-Zurücksetzen)</li>
 </ul>
 <p>Es findet kein Verkauf von Daten und kein Werbe-Tracking statt.</p>
 
