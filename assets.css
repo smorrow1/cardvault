@@ -20,5 +20,15 @@ a { color: var(--brand-d); }
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
 footer a { color: var(--muted); }
 .site-header { padding: 6px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
-.site-header a { display: inline-block; line-height: 0; }
-.site-header img { display: block; width: min(260px, 72vw); height: auto; }
+.brand-lockup { display: inline-flex; align-items: center; gap: 12px; color: var(--text); line-height: 1; text-decoration: none; }
+.site-header .brand-lockup__mark { display: block; width: 72px; height: 72px; flex: none; }
+.brand-lockup__copy { display: grid; gap: 7px; }
+.brand-lockup__name { display: flex; font-family: Outfit, -apple-system, system-ui, sans-serif; font-size: 40px; font-weight: 800; letter-spacing: -2.4px; }
+.brand-lockup__card { color: var(--text); }
+.brand-lockup__vault { color: var(--brand); }
+.brand-lockup__claim { color: var(--gold); font-size: 13px; font-weight: 700; letter-spacing: .1px; }
+@media (max-width: 480px) {
+  .site-header .brand-lockup__mark { width: 60px; height: 60px; }
+  .brand-lockup__name { font-size: 34px; letter-spacing: -2px; }
+  .brand-lockup__claim { font-size: 12px; }
+}
