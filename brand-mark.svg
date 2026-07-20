@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">CardVault card and Spark mark</title>
+  <!-- Canonical source artwork. Do not hand-edit any derived PNG or TS output. -->
+  <g transform="translate(12 10)">
+    <rect x="38" y="57" width="126" height="160" rx="25" transform="rotate(-12 101 137)" fill="#C9A227"/>
+    <rect x="63" y="35" width="137" height="170" rx="25" transform="rotate(-6 131.5 120)" fill="#F5F7F2" stroke="#D8D4C5" stroke-width="3"/>
+    <g fill="none" stroke="#0D1F17" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M93 93h-14q-8 0-8 8v17"/>
+      <path d="M170 93h14q8 0 8 8v17"/>
+      <path d="M71 156v17q0 8 8 8h14"/>
+      <path d="M192 156v17q0 8-8 8h-14"/>
+    </g>
+    <path d="M204 20c3 29 13 39 40 42-27 3-37 14-40 43-4-29-14-40-42-43 28-3 38-13 42-42Z" fill="#E9BE50" stroke="#C9A227" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>

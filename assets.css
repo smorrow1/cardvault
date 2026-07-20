@@ -1,10 +1,10 @@
 /* CardVault — shared page styling */
 :root {
-  --brand: #22C55E; --brand-d: #16A34A;
-  --text: #1A1916; --muted: #6B6860; --bg: #FFFFFF; --surface: #F4F4F2; --border: #E5E4E0;
+  --brand: #22C55E; --brand-d: #15803D; --gold: #E9BE50;
+  --text: #F5F7F2; --muted: #9CAF9F; --bg: #0D1F17; --surface: #16291F; --border: rgba(210,255,225,.14);
 }
 @media (prefers-color-scheme: dark) {
-  :root { --text: #ECEAE4; --muted: #9B9890; --bg: #15171A; --surface: #1E2126; --border: #2C3036; }
+  :root { --text: #F5F7F2; --muted: #9CAF9F; --bg: #0D1F17; --surface: #16291F; --border: rgba(210,255,225,.14); }
 }
 * { box-sizing: border-box; }
 body {
@@ -12,10 +12,13 @@ body {
   max-width: 720px; margin: 0 auto; padding: 24px;
   color: var(--text); background: var(--bg); line-height: 1.6;
 }
-h1 { color: var(--brand); }
+h1 { color: var(--text); }
 h2 { margin-top: 28px; }
 a { color: var(--brand-d); }
 .muted { color: var(--muted); font-size: 14px; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }
 footer a { color: var(--muted); }
+.site-header { padding: 6px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+.site-header a { display: inline-block; line-height: 0; }
+.site-header img { display: block; width: min(260px, 72vw); height: auto; }

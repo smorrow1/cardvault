@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title">
+  <title id="title">CardVault</title>
+  <!-- The mark is linked rather than duplicated: brand-mark.svg remains the artwork source. -->
+  <image href="brand-mark.svg" x="14" y="22" width="212" height="212"/>
+  <text x="254" y="130" fill="#F5F7F2" font-family="Outfit, Avenir Next, Arial, sans-serif" font-size="94" font-weight="800" letter-spacing="-4">Card</text>
+  <text x="472" y="130" fill="#22C55E" font-family="Outfit, Avenir Next, Arial, sans-serif" font-size="94" font-weight="800" letter-spacing="-4">Vault</text>
+  <text x="259" y="190" fill="#E9BE50" font-family="Outfit, Avenir Next, Arial, sans-serif" font-size="32" font-weight="600" letter-spacing=".5">Scan. Collect. Spark.</text>
+</svg>
